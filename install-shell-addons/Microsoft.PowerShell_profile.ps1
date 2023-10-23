@@ -9,7 +9,7 @@ function Show-Environment-Variables {
 }
 
 # Enable Starship
-$ENV:STARSHIP_CONFIG = "$HOME\.starship\starship.toml"
+#$ENV:STARSHIP_CONFIG = "$HOME\.starship\starship.toml"
 Invoke-Expression (&starship init powershell)
 
 # Load ZLocation (similar to autojump)
